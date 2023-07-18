@@ -24,7 +24,8 @@ class MotherAccount extends SonAccount {
     
     calculateInteress() {
         this.interess = 0
-        this.interess = this.balanceInit * 0.1 + this.balanceInit
+        this.interess = this.balanceInit * 0.1
+        console.log("Mother Interess", this.interess)
         console.log('Mother Balance',this.balanceInit)
         console.log('First Account Balance', sonAccount.balanceInit);
         
